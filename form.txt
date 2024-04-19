@@ -1,0 +1,41 @@
+            <article class="sobre-nosotros" id="sobre-nosotros">
+                <h2>SOBRE NOSOTROS</h2>
+                <p class="info-nosotros">
+                    Eleva tus habilidades con nuestras clases privadas virtuales y presenciales diseñadas para inspirarte y demostrarte que es posible.
+                </p>
+            </article>
+            <article class="contacto-form" id="contacto">
+                <h2>CONTACTANOS</h2>
+                <p class="info-contacto">
+                    En Nichi, estamos comprometidos en brindar a su mascota una vida feliz y saludable. Desde alimentos nutritivos y juguetes divertidos hasta atención veterinaria de alta calidad, tenemos todo lo que su mascota necesita. Si tiene alguna pregunta o inquietud, nuestro equipo de atención al cliente está listo para ayudarlo a través de nuestro número de teléfono o formulario de contacto en línea. Gracias por elegir Nichi como su tienda de mascotas local.
+                </p>       
+                <h3 id="tit-form">Formulario de Contacto</h3>
+                <form action method="get">
+                    <div class="cont-form">
+                        <label for="nombre-apellido">Nombre y Apellido:</label>
+                        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Lucas Barraza" required>
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" name="email" id="email" placeholder="ejemplo@correo.com" required>
+                        <label for="num-contacto">Numero de telefono/celular</label>
+                        <input type="tel" name="num-contacto" id="num-contacto" placeholder="1160179598" required>
+                        <h3 id="motivo">Motivo de consulta</h3>
+                     <div class="opciones-check">
+                         <label for="info">
+                             <input type="radio" name="opciones" id="info">
+                             Quiero informacion del PetShop
+                         </label>
+                         <label for="consulta">
+                             <input type="radio" name="opciones" id="consulta">
+                             Consulta sobre un producto
+                         </label>
+                         <label for="otro">
+                             <input type="radio" name="opciones" id="otro">
+                             Otro
+                         </label>                   
+                     </div>
+                         <label for="mensaje">Dejanos tu mensaje explicando tus dudas/consultas/solicitudes</label>
+                             <textarea name="mensaje" id="mensaje" cols="100" rows="10" required placeholder="Mensaje"></textarea>
+                         <button type="submit">Enviar</button>                   
+                    </div>                   
+                </form>
+            </article>
